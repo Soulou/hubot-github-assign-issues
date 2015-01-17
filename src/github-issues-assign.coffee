@@ -20,7 +20,6 @@ module.exports = (robot) ->
         res.reply "Sorry, you haven't told me your GitHub username."
 
   robot.respond /issues assign ([-_\.0-9a-z]+) to (([-_\.0-9a-z]+\/)?[-_\.0-9a-z]+) (#[0-9]+)/i, (res) ->
-    console.log(res.match)
     repo = githubot.qualified_repo res.match[2]
     id = res.match[4].slice(1)
     payload = {}
