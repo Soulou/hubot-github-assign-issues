@@ -1,0 +1,29 @@
+{
+  "name": "hubot-github-assign-issues",
+  "version": "0.0.1",
+  "description": "Assign issues with your Hubot !",
+  "author": "Léo Unbekandt <leo@scalingo.com>",
+  "license": "MIT",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": "hubot, hubot-scripts, github",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Soulou/hubot-github-assign-issues.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Soulou/hubot-github-assign-issues/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "githubot": "^1.0.0-beta2"
+  },
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "hubot": "2.x"
+  }
+}
